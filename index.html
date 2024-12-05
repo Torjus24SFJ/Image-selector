@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Image selector</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inner-container">
+        <form>
+          <label id="select" for="select_img">Select a flag:</label>
+          <select name="select_img" id="select_img">
+            <option value="" disabled selected>Scandinavian flags</option>
+            <option value="norway">Norway</option>
+            <option value="sweden">Sweden</option>
+            <option value="danmark">Danmark</option>
+            <option value="finland">Finland</option>
+            <option value="iceland">Iceland</option>
+          </select>
+        </form>
+      </div>
+      <div class="image-container">
+        <img id="image-selector" src="" alt="">
+      </div>
+    </div>
+  </body>
+</html>
